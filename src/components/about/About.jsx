@@ -12,7 +12,7 @@ const About = () => {
       <div className='container about__container'>
         <div className="about__me">
           <div className="about__me-image">
-            <img src='' alt=''/>
+            <img src={ME} alt='me'/>
           </div>
         </div>
         <div className="about__content">
@@ -27,16 +27,18 @@ const About = () => {
             <article className='about__card'>
               <IoIosSchool  className='about__icon'/>
               <h5>Education</h5>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure veritatis quo neque consectetur nobis accusantium, iusto nesciunt temporibus tempora? Consequatur dolorum, tempore veniam voluptatem molestias quos ipsam molestiae nobis!</small>
+              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</small>
             </article>
 
             <article className='about__card'>
               <AiFillProject  className='about__icon'/>
               <h5>Projects</h5>
-              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure veritatis quo neque consectetur nobis accusantium, iusto nesciunt temporibus tempora? Consequatur dolorum, tempore veniam voluptatem molestias quos ipsam molestiae nobis!</small>
+              <small>Lorem ipsum dolor sit amet consectetur adipisicing elit!</small>
             </article>
           </div>
 
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ducimus nihil neque culpa itaque aut. Facere voluptate perferendis temporibus exercitationem in labore itaque? Reiciendis aliquam molestias vel, velit voluptas accusantium!</p>
+          <a href='#contact' className='btn btn-primary'>contact</a>
         </div>
       </div>
     </section>

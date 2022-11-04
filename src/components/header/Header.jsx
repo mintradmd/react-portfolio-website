@@ -1,6 +1,6 @@
 import './Header.css'
 import CTA from './CTA'
-import mintra from '../../assets/Mintra.png'
+import cat from '../../assets/cat.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className='me'>
-          <img src={mintra} alt='me'/>
+          <img src={cat} alt='me'/>
         </div>
 
         <a href='#contact' className='scroll__down'>Keep Reading</a>
