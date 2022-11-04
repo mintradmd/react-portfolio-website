@@ -1,6 +1,7 @@
 import './Header.css'
 import CTA from './CTA'
-import mintra from '../../assets/mintra.png'
+import mintra from '../../assets/Mintra.png'
+import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
         <h5>Mintra Domundee</h5>
         <h5 className='text-light'>Junior Frontend Developer</h5>
         <CTA />
+        <HeaderSocials />
         <div className='me'>
           <img src={mintra} alt='me'/>
         </div>
