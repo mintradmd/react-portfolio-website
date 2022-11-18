@@ -37,7 +37,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-taupe);
     color: var(--color-taupe);
     line-height: 1.7;
     background-image: url(../src/assets/white-bg.jpg);
